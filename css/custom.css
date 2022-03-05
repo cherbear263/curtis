@@ -1,0 +1,76 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+:root {
+  --bg-dark: rgba(255, 255, 255, 0.05);
+  --hover-brightness: 1.2;
+}
+
+.standard-logo {
+  text-transform: uppercase;
+  color: #282828 !important;
+  margin-left: 2rem;
+}
+
+#main-intro {
+  display: block;
+  max-width: 600px;
+}
+textarea {
+  border: none;
+  background-color: var(--bg-dark);
+  padding-left: 10px;
+  padding-top: 10px;
+  display: block;
+  width: 100%;
+  color: #999;
+}
+input {
+  border: none;
+  background-color: var(--bg-dark) !important;
+  height: 50px;
+}
+.formdiv {
+  margin-top: 34px !important;
+}
+textarea:focus,
+input:focus {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 255, 255, 255, 0.2 !important;
+  outline: 3px blue !important;
+  transition: 0.25s ease-in-out;
+  opacity: 0.9;
+}
+label {
+  opacity: 0.75;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-transform: none;
+}
+
+input {
+  text-align: left !important;
+}
+.btn-submit {
+  border-color: rgba(255, 255, 255, 0.5);
+  border-radius: 1px;
+  color: white;
+  opacity: 0.75;
+  padding: 10px 30px;
+  margin-top: 40px !important;
+}
+.btn-submit:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transition: 0.5s ease-in-out;
+  color: white;
+  opacity: 0.75;
+}
+@media (max-width: 480px) {
+  #bg-main {
+    background-image: none !important;
+  }
+}
