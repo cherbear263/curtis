@@ -33,7 +33,7 @@ input {
   background-color: var(--bg-dark) !important;
   height: 50px;
 }
-.formdiv {
+input .formdiv {
   margin-top: 34px !important;
 }
 textarea:focus,
@@ -42,7 +42,8 @@ input:focus {
   border: 255, 255, 255, 0.2 !important;
   outline: 3px blue !important;
   transition: 0.25s ease-in-out;
-  opacity: 0.9;
+  color: white;
+  opacity: 1 !important;
 }
 label {
   opacity: 0.75;
@@ -52,23 +53,19 @@ label {
   text-transform: none;
 }
 
-input {
-  text-align: left !important;
-}
 .btn-submit {
   border-color: rgba(255, 255, 255, 0.5);
-  border-radius: 1px;
   color: white;
   opacity: 0.75;
-  padding: 10px 30px;
-  margin-top: 40px !important;
+  width: 175px;
+  height: 50px;
 }
-.btn-submit:hover {
-  background-color: rgba(255, 255, 255, 0.25);
-  transition: 0.5s ease-in-out;
-  color: white;
-  opacity: 0.75;
+.btn-submit:focus {
 }
+.social-icon {
+  padding-top: 10px;
+}
+
 @media (max-width: 480px) {
   #bg-main {
     background-image: none !important;
