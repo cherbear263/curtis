@@ -67,13 +67,11 @@
                 <a
                   href="index.html"
                   class="standard-logo"
-                  data-dark-logo="one-page/images/canvasone-dark.png"
                   >Curtis Harrison
                 </a>
                 <a
                   href="index.html"
                   class="retina-logo"
-                  data-dark-logo="one-page/images/canvasone-dark@2x.png"
                   >Curtis Harrison</a
                 >
               </div>
@@ -305,10 +303,11 @@
                         placeholder="your email address"
                       />
                     </div>
-                    <div class="form-group mt-4">
-                      <label for="country-code" class="inline phone-label">Country Code</label>
+                    <div class="phone-group mt-4">
+                      <div class="form-group">
+                      <label for="country-code" class="block phone-label">Country</label>
                       <!-- country codes (ISO 3166) and Dial codes. -->
-                        <select name="countryCode" class="inline" id="country-code">
+                        <select name="countryCode" class="" id="country-code">
                           <option data-countryCode="AU" selected value="61">Australia (+61)</option>
                           <option data-countryCode="TH" value="66">Thailand (+66)</option>
                           <optgroup label="Other countries">
@@ -528,14 +527,17 @@
                             <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
                           </optgroup>
                         </select>
-<label for="phone" class="inline phone-label">Phone</label>
-                      <input
-                        type="tel"
-                        class="inline"
-                        id="phone"
-                        name="phone"
-                        placeholder="XXXXXXXXXX"
-                      />
+                      </div>
+                      <div class="form-group">
+                        <label for="phone" class="block phone-label">Phone</label>
+                        <input
+                          type="tel"
+                          class=""
+                          id="phone"
+                          name="phone"
+                          placeholder="XXXXXXXXXX"
+                        />
+                      </div>  
                     </div>
                     <div class="form-group mt-4">
                       <label for="message" class="block">Message</label>

@@ -50,6 +50,8 @@ input:focus {
   opacity: 1 !important;
 }
 
+
+
 label {
   opacity: 0.75;
   font-family: "Roboto", sans-serif;
@@ -72,7 +74,7 @@ select {
   text-indent: 1px;
   text-overflow: "";
   /* Personalize */
-  max-width: 190px;
+  max-width: 200px;
   height: 3em;
   padding: 0 4em 0 1em;
   background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg)
@@ -118,8 +120,20 @@ label.error {
 	display: block !important;
 	font-size: inherit;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   #bg-main {
-    background-image: none !important;
+    background-image: url('../images/curtis_sm.jpg') !important;
   }
+	#header:(.sticky-header) #logo a {
+		opacity: 0;
+		pointer-events: none;
+	}
+	#header {
+		display: fixed !important;
+	}
+	a.retina-logo {
+		visibility: visible;
+		display: fixed !important;
+	}
+
 }
