@@ -120,7 +120,12 @@ label.error {
 	display: block !important;
 	font-size: inherit;
 }
-@media (max-width: 500px) {
+
+#bg-main {
+  background-image: url('../images/main_lg.png');
+}
+
+@media (max-width: 600px) {
   #bg-main {
     background-image: none !important;
   }
@@ -136,4 +141,9 @@ label.error {
 		display: fixed !important;
 	}
 
+}
+
+.curtis-photo {
+  margin-top: -18px;
+  /* border: 1px solid red; */
 }
