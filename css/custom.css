@@ -134,7 +134,6 @@ label.error {
 		pointer-events: none;
 	}
 	#header {
-		/* display: fixed !important; */
     margin-top: -80px;
     
 	}
@@ -144,10 +143,6 @@ label.error {
 		display: fixed !important;
 	}
 
-}
-
-.curtis-photo {
-  margin-top: -8px;
 }
 
 .big-name {
