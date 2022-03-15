@@ -134,8 +134,11 @@ label.error {
 		pointer-events: none;
 	}
 	#header {
-		display: fixed !important;
+		/* display: fixed !important; */
+    margin-top: -80px;
+    
 	}
+
 	a.retina-logo {
 		visibility: visible;
 		display: fixed !important;
@@ -143,7 +146,8 @@ label.error {
 
 }
 
-.curtis-photo {
-  margin-top: -18px;
-  /* border: 1px solid red; */
+.big-name {
+  font-size: 52px !important;
+  letter-spacing: 10px !important;
+  word-spacing: 5px !important;
 }
