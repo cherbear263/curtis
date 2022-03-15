@@ -123,6 +123,7 @@ label.error {
 
 #bg-main {
   background-image: url('../images/main_lg.png');
+  background-position: top center;
 }
 
 @media (max-width: 600px) {
@@ -149,4 +150,41 @@ label.error {
   font-size: 52px !important;
   letter-spacing: 10px !important;
   word-spacing: 5px !important;
+}
+
+.sub-header {
+  color: #888;
+  letter-spacing: 5px;
+  font-size: 18px
+}
+
+.header-content {
+  max-width: 600px;
+  line-height: 1.8;
+  color: #aaa
+}
+
+@media (max-width: 810px) and  (min-width: 600px) {
+
+  .curtis-photo {
+    display: none;
+  }
+
+  #bg-main {
+    background-image: url('../images/main_lg.png');
+    background-position: top right;
+  }
+
+  #main-intro {
+    display: block;
+    max-width: 600px;
+    margin-top: 80%;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.7);
+  }
+
+  .sub-header,
+  .header-content {
+    color: #333
+  }
 }
