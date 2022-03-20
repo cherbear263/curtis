@@ -164,7 +164,7 @@ label.error {
   color: #aaa
 }
 
-@media (max-width: 810px) and  (min-width: 600px) {
+@media (max-width: 1024px) and  (min-width: 600px) {
 
   .curtis-photo {
     display: none;
